@@ -1,0 +1,25 @@
+
+repositories {
+	mavenCentral()
+}
+
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = 'hello.HelloWorld'
+
+jar {
+ baseName = 'spring-playtime'
+ version = '0.1.0'
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8 
+
+dependencies {
+	compile "joda-time:joda-time:2.2"
+        testCompile "junit:junit:4.12"
+
+}
+
