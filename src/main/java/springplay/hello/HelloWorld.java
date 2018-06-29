@@ -1,4 +1,4 @@
-package hello;
+package springplay.hello;
 
 import org.joda.time.LocalTime;
 

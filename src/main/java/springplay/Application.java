@@ -1,4 +1,4 @@
-package hello;
+package springplay;
 
 import java.util.Arrays;
 
@@ -16,7 +16,7 @@ public class Application {
 
     }
 
-    @Bean
+/*    @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
             System.out.println(" INspect the beans provided by Spring boot !!");
@@ -29,5 +29,5 @@ public class Application {
             }
         };
 
-    }
+    }*/
 }

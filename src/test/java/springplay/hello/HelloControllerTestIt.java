@@ -1,4 +1,4 @@
-package hello;
+package springplay.hello;
 
 
 import static org.hamcrest.Matchers.equalTo;
